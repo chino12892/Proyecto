@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bamr.itics.tesoem.edu.proyecto">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".NolinealActivity"></activity>
+        <activity android:name=".CarrerasActivity" />
+        <activity android:name=".RolActivity" />
+        <activity android:name=".PlataformasActivity" />
+        <activity android:name=".ShorrorActivity" />
+        <activity android:name=".LuchaActivity" />
+        <activity android:name=".EstrategiaActivity" />
+        <activity android:name=".ShooterActivity" />
+        <activity android:name=".AventuraActivity" />
+        <activity android:name=".mobaActivity" />
+        <activity android:name=".menuActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
